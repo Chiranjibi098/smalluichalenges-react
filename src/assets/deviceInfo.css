@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Cutive Mono", monospace;
+  padding: 0;
+  margin: 0;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sub-main {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.btnGroup {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.startButton button {
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.stopButton button {
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.resetButton button{
+  background-color: rgb(29, 29, 125);
+  border: none;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.boxcopy{
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Cart button{
+  color: white;
+  background-color: orangered;
+  border-radius: 32px;
+  margin-top: 20px;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.mapList{
+  text-align: left;
+  height: 100px;
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.colleges{
+  overflow: hidden;
+  height: 100px;
+  overflow-y: scroll;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.modal button{
+  border: none;
+  background-color: bisque;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.mo{
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+  width: fit-content;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.mo-wrap{
+  background-color: rgba(55, 55, 55, 0.364);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.modal-open {
+  overflow: hidden;
+}
