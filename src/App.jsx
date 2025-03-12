@@ -1,8 +1,8 @@
 import React from "react";
-import DeviceInfo from "./pages/DeviceInfo";
+import Landing from "./pages/Landing";
 
 export default function App(){
   return(
-    <DeviceInfo/>
+    <Landing/>
   );
 }
