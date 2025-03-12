@@ -6,7 +6,7 @@ import Apicalltwo from "../components/ApiCalltwo";
 import AddtoCart from "../components/AddtoCart";
 import Modal from "../components/Modal";
 import CopytoClip from "../components/CopytoClip";
-import DeviceInfo from "../components/deviceInfo";
+import DeviceInfo from "../components/DeviceInfo";
 import "../assets/deviceInfo.css";
 
 export default function Landing() {
